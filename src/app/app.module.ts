@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { JokeComponent } from './joke.component';
+import { JokeListComponent } from './joke-list.component';
 
 @NgModule({
   declarations: [
-    JokeComponent
+    JokeComponent,
+    JokeListComponent
   ],
   imports: [
     BrowserModule,
@@ -15,6 +17,6 @@ import { JokeComponent } from './joke.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [JokeComponent]
+  bootstrap: [JokeListComponent]
 })
 export class AppModule { }
