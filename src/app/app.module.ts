@@ -5,9 +5,11 @@ import { HttpModule } from '@angular/http';
 
 import { JokeComponent } from './joke.component';
 import { JokeListComponent } from './joke-list.component';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
+    AppComponent,
     JokeComponent,
     JokeListComponent
   ],
@@ -17,6 +19,6 @@ import { JokeListComponent } from './joke-list.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [JokeListComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
