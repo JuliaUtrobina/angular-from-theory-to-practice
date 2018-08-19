@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { JokeComponent } from './joke.component';
 import { JokeListComponent } from './joke-list.component';
 import { AppComponent } from './app.component';
+import { JokeFormComponent } from './joke-from.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     JokeComponent,
-    JokeListComponent
+    JokeListComponent,
+    JokeFormComponent
   ],
   imports: [
     BrowserModule,
